@@ -9,7 +9,7 @@
     <!--External CSS Implementation-->
      <!--SWIPER JS IMPLEMENTATION-->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet"  href="style.css" />
+    <link rel="stylesheet"  href="{{ URL::asset('css/style.css')}}" />
     <title>Login</title>
 </head>
 <body>

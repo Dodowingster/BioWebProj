@@ -10,7 +10,7 @@
         <!--External CSS Implementation-->
          <!--SWIPER JS IMPLEMENTATION-->
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-        <link rel="stylesheet"  href="style.css" />
+        <link rel="stylesheet" href="{{ URL::asset('css/style.css')}}">
         <title>About</title>
     </head>
     <body class="vh-100 overflow hidden">
@@ -34,13 +34,13 @@
                 <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
                   <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item mx-2 ">
-                      <a class="nav-link" href="About.html">About</a>
+                      <a class="nav-link" href="/Aboutus">About</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="Programs.html">Programs</a>
+                        <a class="nav-link" href="/Programs">Programs</a>
                       </li> 
                       <li class="nav-item mx-2">
                         <a class="nav-link" href="#pricing">Pricing</a>
@@ -48,8 +48,8 @@
                   </ul>
                   <!--LOGIN / SIGNUP PAGE-->
                   <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
-                    <a href="Login.html" class="text-white">Login</a>
-                    <a href="#signup" class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: #8ecae6">Sign Up</a>
+                    <a href="/Login" class="text-white">Login</a>
+                    <a href="/Register" class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: #8ecae6">Sign Up</a>
                   </div>
                 </div>
               </div>
@@ -95,7 +95,7 @@
             <section class="container biography">
               <h2 style="font-family: Lobster;" >Dr Sri Juliana Safri</h2>
               <p style="font-family: Poppins;">PD SpED (France), EMHRM UniRazak, LRN, UK(2023),  AdvDip(ChildPsych,UK), DipSEND(UK), Cert.Sup. CLD(UOL, UCL Institute of Education, UK), Cert.SLT(UK), Cert.TESOL/TEFL (UK), CP.NLP(UK), CP.CBT(UK), Trauma-Sensitive CP (HeartMath, USA), Certified Professional Life Coach (USA).</p>
-              <img src="images/bioteam2.JPG" alt="Dr_Juliana_img">
+              <img src="/BioWebProj/BioWebProj/images/bioteam2.JPG" alt="Dr_Juliana_img">
               <p style="font-family: Poppins;">Dr. Sri Juliana Safri is an accomplished educator dedicated to improving lives through learning. With a rich academic journey spanning the UK, USA, and Malaysia, she holds qualifications ranging from a Professional Doctorate in Special Education to various certifications in child psychology, special educational needs, coaching, and more.
 
                 Driven by a passion for positive change, Dr. Safri founded BioDyslexia, an initiative aimed at empowering dyslexic learners. Her commitment to transforming education is evident in the initiative's impactful work. This biography highlights her diverse expertise and global perspective, showcasing a visionary leader in the field of education.

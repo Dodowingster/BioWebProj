@@ -11,7 +11,7 @@
         <!--FONT AWESOME IMPLEMENTATION-->
         <script src="https://kit.fontawesome.com/a176545576.js" crossorigin="anonymous"></script>
         <!--FONT AWESOME IMPLEMENTATION-->
-        <link rel="stylesheet" type="text/css"  href="style.css" media="all" />
+        <link rel="stylesheet" href="{{ URL::asset('css/style.css')}}"/>
         <!--SWIPER JS IMPLEMENTATION-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <title>BioDyslexia</title>
@@ -37,13 +37,13 @@
                 <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
                   <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item mx-2 ">
-                      <a class="nav-link text-white" href="About.html">About</a>
+                      <a class="nav-link text-white" href="/Aboutus">About</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="Programs.html">Programs</a>
+                        <a class="nav-link text-white" href="/Programs">Programs</a>
                       </li> 
                       <li class="nav-item mx-2">
                         <a class="nav-link text-white" href="#pricing">Pricing</a>
@@ -51,8 +51,8 @@
                   </ul>
                   <!--LOGIN / SIGNUP PAGE-->
                   <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
-                    <a href="Login.html" class="text-white">Login</a>
-                    <a href="Register.html" class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: #8ecae6">Sign Up</a>
+                    <a href="/Login" class="text-white">Login</a>
+                    <a href="/Register" class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: #8ecae6">Sign Up</a>
                   </div>
                 </div>
               </div>

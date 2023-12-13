@@ -11,7 +11,7 @@
         <!--FONT AWESOME IMPLEMENTATION-->
         <script src="https://kit.fontawesome.com/a176545576.js" crossorigin="anonymous"></script>
         <!--FONT AWESOME IMPLEMENTATION-->
-        <link rel="stylesheet" type="text/css"  href="style.css" media="all" />
+        <link rel="stylesheet" href="{{ URL::asset('css/style.css')}}">
         <!--SWIPER JS IMPLEMENTATION-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <title>BioDyslexia</title>
@@ -55,7 +55,7 @@
                     <div class="input-group mb-3">
                         <button type="button" class="btn btn-outline-primary w-100 h-100">Register</button>
                     </div>
-                    <a class="input-group mb-3" href="Login.html">
+                    <a class="input-group mb-3" href="/Login">
                         <button type="button" class="btn btn-outline-primary w-100 h-100">Already have an account? login here</button>
                     </a>
                     
